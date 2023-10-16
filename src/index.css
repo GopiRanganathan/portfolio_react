@@ -23,6 +23,7 @@ a{
 ul{
   list-style: none;
   display:flex;
+  flex-wrap:wrap;
   gap:10px;
 }
 
@@ -174,7 +175,9 @@ ul{
   border-radius:20px;
   margin :10px;
   margin-bottom:20px;
+  text-align:center;
 }
+
 .heading{
   text-transform:capitalize;
   margin-bottom:10px;
@@ -301,11 +304,7 @@ ul{
     color:var(--clr-3);
     transform: scale(1.2);
   }
-  .mail span{
-    font-size:15px;
-    margin-right:5px;
-    padding:5px 7px;
-  }
+
   .mail p{
   margin:20px 5px;
 font-size:15px;
@@ -315,6 +314,11 @@ width:230px;
     padding:10px;
     margin:0;
     min-width:250px;
+  }
+  .mail span{
+    font-size:15px;
+    margin-right:5px;
+    padding:5px;
   }
   .App{
     padding: 20px 10px;

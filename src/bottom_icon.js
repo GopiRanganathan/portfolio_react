@@ -15,7 +15,7 @@ const BottomIcon=({setPage, isActive, setIsActive})=>{
               
               >
                 {pages.map((link, index)=>{
-                    const {icon, text, url} = link;
+                    const {icon, text} = link;
 
                     return <motion.li key={index} animate={isActive === index ? 'visible' : 'hidden'} variants={variants}  onClick={()=> {setPage({text}); setIsActive(index); console.log(isActive ) }} whileHover={{scale:2}}>
                         <a href="#" className={`${isActive === index ? 'active' : ''}`}>{icon} </a>

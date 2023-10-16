@@ -43,7 +43,7 @@ const item = {
               variants={list}
               >
                 {pages.map((link, index)=>{
-                    const {text,  url} = link;
+                    const {text} = link;
 
                     return <motion.li key={index}  variants={item} onClick={()=> {setPage({text}); 
                     setIsActive({index});

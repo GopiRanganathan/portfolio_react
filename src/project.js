@@ -13,7 +13,7 @@ const Project =() =>{
             const {image,text,demoLink,srcLink} = item;
            
             return <article key={index}>
-                <img src={image} alt={text} />
+                <img src={`${process.env.PUBLIC_URL}${image}`} alt={text} />
                
                 <h3 className="project-title">{text}</h3>
                 <div className="btn-container">
