@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 const About =() =>{
     return <div className="about">
-      <h2>about me</h2>
+      <motion.h2 initial={{y:500}} animate={{y:0}} >about me</motion.h2>
       <div className="about-center">
 
           <motion.div className="details" initial={{y:500}} animate={{y:0}}>
