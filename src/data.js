@@ -57,6 +57,13 @@ export const projects =[
         image:'/images/weatherapp.png',
         demoLink:'https://gopiranganathan.github.io/Weather-App/',
         srcLink:'https://github.com/GopiRanganathan/Weather-App'
+    },
+    {
+        text:'personal blog',
+        image:'/images/blog.png',
+        demoLink:'https://know-more-blog.onrender.com/',
+        srcLink:'https://github.com/GopiRanganathan/blog'
     }
+
 ]
 
